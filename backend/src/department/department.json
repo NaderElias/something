@@ -1,0 +1,37 @@
+{
+  "department": {
+    "name": "nader",
+    "description": "description",
+    "localization": {
+      "name": "الحسابات",
+      "description": "وصف"
+    },
+    "code": "11557",
+    "manager": "the labib",
+    "location": "HQ, london office",
+    "employeesNumber": 10,
+    "status": true,
+    "parentDepartment": null,
+    "createdAt": "2019-01-01T12:30",
+    "employees": [
+      {
+        "id": 11557,
+        "name": "M. ElGandour",
+        "role": "Manager",
+        "contact": "+201712345678"
+      },
+      {
+        "id": 11555,
+        "name": "K. AbdElkader",
+        "role": "CTO",
+        "contact": "01712345678"
+      },
+      {
+        "id": 12365,
+        "name": "F. Rezk",
+        "role": "CEO",
+        "contact": "01712345678"
+      }
+    ]
+  }
+}

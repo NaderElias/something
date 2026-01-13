@@ -1,0 +1,1 @@
+export { DepartmentHeaderSection } from "./DepartmentHeaderSection";

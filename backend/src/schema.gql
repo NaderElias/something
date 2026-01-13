@@ -1,0 +1,42 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Localization {
+  name: String!
+  description: String!
+}
+
+type Employee {
+  id: Int!
+  name: String!
+  role: String!
+  contact: String!
+}
+
+type ParentDepartment {
+  id: Int!
+  name: String!
+}
+
+type Department {
+  name: String!
+  description: String!
+  localization: Localization!
+  code: Int!
+  manager: String!
+  location: String!
+  employeesNumber: Int!
+  status: Boolean!
+  parentDepartment: ParentDepartment
+  createdAt: String!
+  employees: [Employee!]!
+}
+
+type Query {
+  department: Department!
+}
+
+type Mutation {
+  deleteEmployee(id: Int!): Boolean!
+}

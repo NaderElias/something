@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+    "jsx": "react-jsx",       // for React 17+ new transform
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext"
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

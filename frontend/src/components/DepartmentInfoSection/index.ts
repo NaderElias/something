@@ -1,0 +1,1 @@
+export { DepartmentInfoSection } from "./DepartmentInfoSection";
